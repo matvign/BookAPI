@@ -20,3 +20,9 @@
 5. Clone this repository.
 6. Change to the cloned directory.
 7. Run `pipenv install`
+8. Run `pipenv shell`
+9. Run `python -m unittest discover` to run tests
+
+## Additional Notes:
+Additional dependencies may be required based on operating system.
+On Ubuntu 16.04, may require packages such as `libmysqlclient-dev`, `python3-dev`
